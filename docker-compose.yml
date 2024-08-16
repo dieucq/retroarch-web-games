@@ -6,8 +6,8 @@ services:
             context: .
             dockerfile: Dockerfile
         container_name: retroarch
-        # volumes:
-        #     - ~/retroarch:/var/www/html/assets/cores/retroarch
+        volumes:
+            - /srv/docker-data/retroarch:/var/www/html/assets/cores/retroarch
         ports:
-            - '8080:80'
+            - '8182:80'
         restart: unless-stopped
