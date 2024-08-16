@@ -27,7 +27,7 @@ https://hub.docker.com/repository/docker/antoine13/retroarch-web-games
 docker-compose up -d
 ```
 
-After the container is up and running, open your web browser and navigate to http://localhost:8080 to start using the RetroArch web player.
+After the container is up and running, open your web browser and navigate to http://localhost:8182 to start using the RetroArch web player.
 
 ## Acknowledgements
 This Docker image is based on:
